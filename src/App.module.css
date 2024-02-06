@@ -3,6 +3,7 @@
     flex-direction: column;
     width: 800px;
     margin: auto;
+    gap: 12px;
 }
 
 .error {
@@ -16,7 +17,6 @@
 .Table {
     width: 100%;
     border-collapse: collapse;
-    background: white;
 }
 
 .Table th {
@@ -35,5 +35,5 @@
     flex-direction: column;
     align-items: stretch;
     justify-content: stretch;
-    gap: 12px;
+    background: white;
 }
