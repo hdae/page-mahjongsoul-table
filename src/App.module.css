@@ -1,0 +1,39 @@
+.App {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    margin: auto;
+}
+
+.error {
+    color: red;
+}
+
+.Input {
+    height: 160px;
+}
+
+.Table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+}
+
+.Table th {
+    background: rgb(212, 226, 255);
+}
+
+.Table th,
+.Table td {
+    padding: 4px 8px;
+    text-align: left;
+    border: solid 1px #000;
+}
+
+.Result {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: stretch;
+    gap: 12px;
+}
